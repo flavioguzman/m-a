@@ -1,0 +1,1499 @@
+{
+	"info": {
+		"_postman_id": "ae34351f-0211-4e9f-887a-cd00a0b182aa",
+		"name": "Wordpress Medical Academy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17110649"
+	},
+	"item": [
+		{
+			"name": "CCTs",
+			"item": [
+				{
+					"name": "Conditions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/conditions"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/conditions"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 20:03:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_ID\": \"107\",\n        \"cct_status\": \"publish\",\n        \"condition_name\": \"Herpes simplex keratitis\",\n        \"field\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:02:13\",\n        \"cct_modified\": \"2023-05-31 20:02:13\",\n        \"cct_single_post_id\": \"231\",\n        \"cct_slug\": \"conditions\"\n    },\n  \n]"
+						}
+					]
+				},
+				{
+					"name": "Indications",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/indications"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/indications"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:39:43 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1960"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_ID\": \"7\",\n        \"cct_status\": \"publish\",\n        \"indication\": \"MDD\",\n        \"fda_indication\": \"Desvenlafaxine is indicated for the treatment of major depressive disorder (MDD) in adults. It is a serotonin-norepinephrine reuptake inhibitor (SNRI) that works by increasing the levels of serotonin and norepinephrine in the brain, which helps to improve mood and alleviate symptoms of depression. Desvenlafaxine is also sometimes used off-label for the treatment of anxiety disorders and other psychiatric conditions.\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 18:39:22\",\n        \"cct_modified\": \"2023-05-31 18:39:22\",\n        \"cct_slug\": \"indications\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Indication",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/conditions"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/wordpress/index.php/wp-json/jet-cct/indications?indication=MDD&fda_indication=Desvenlafaxine is indicated for the treatment of major depressive disorder (MDD) in adults. It is a serotonin-norepinephrine reuptake inhibitor (SNRI) that works by increasing the levels of serotonin and norepinephrine in the brain, which helps to improve mood and alleviate symptoms of depression. Desvenlafaxine is also sometimes used off-label for the treatment of anxiety disorders and other psychiatric conditions.",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"wordpress",
+										"index.php",
+										"wp-json",
+										"jet-cct",
+										"indications"
+									],
+									"query": [
+										{
+											"key": "indication",
+											"value": "MDD"
+										},
+										{
+											"key": "fda_indication",
+											"value": "Desvenlafaxine is indicated for the treatment of major depressive disorder (MDD) in adults. It is a serotonin-norepinephrine reuptake inhibitor (SNRI) that works by increasing the levels of serotonin and norepinephrine in the brain, which helps to improve mood and alleviate symptoms of depression. Desvenlafaxine is also sometimes used off-label for the treatment of anxiety disorders and other psychiatric conditions."
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:39:21 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Content-Length",
+									"value": "28"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"item_id\": 7\n}"
+						}
+					]
+				},
+				{
+					"name": "Condition",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/wordpress/index.php/wp-json/jet-cct/conditions?cct_status=publish&condition_name=MDD&cct_author_id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"wordpress",
+								"index.php",
+								"wp-json",
+								"jet-cct",
+								"conditions"
+							],
+							"query": [
+								{
+									"key": "cct_status",
+									"value": "publish"
+								},
+								{
+									"key": "condition_name",
+									"value": "MDD"
+								},
+								{
+									"key": "cct_author_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/wordpress/index.php/wp-json/jet-cct/conditions?condition_name={condition_name}",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"wordpress",
+										"index.php",
+										"wp-json",
+										"jet-cct",
+										"conditions"
+									],
+									"query": [
+										{
+											"key": "cct_status",
+											"value": "publish",
+											"disabled": true
+										},
+										{
+											"key": "cct_author_id",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "condition_name",
+											"value": "{condition_name}"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 15:15:39 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Content-Length",
+									"value": "28"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"item_id\": 6\n}"
+						}
+					]
+				},
+				{
+					"name": "Drugs",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-cct/drugs"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 20:29:25 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Content-Length",
+									"value": "6683"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_ID\": \"31\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"idoxuridine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:12\",\n        \"cct_modified\": \"2023-05-31 20:29:12\",\n        \"cct_single_post_id\": \"256\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"30\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"cloxacillin\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:10\",\n        \"cct_modified\": \"2023-05-31 20:29:10\",\n        \"cct_single_post_id\": \"255\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"29\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"mestranol\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:09\",\n        \"cct_modified\": \"2023-05-31 20:29:09\",\n        \"cct_single_post_id\": \"254\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"28\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"pancuronium\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:09\",\n        \"cct_modified\": \"2023-05-31 20:29:09\",\n        \"cct_single_post_id\": \"253\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"27\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"LYO9XZ250J\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:08\",\n        \"cct_modified\": \"2023-05-31 20:29:08\",\n        \"cct_single_post_id\": \"252\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"26\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"94O110CX2E\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:08\",\n        \"cct_modified\": \"2023-05-31 20:29:08\",\n        \"cct_single_post_id\": \"251\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"25\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"bisoprolol\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:08\",\n        \"cct_modified\": \"2023-05-31 20:29:08\",\n        \"cct_single_post_id\": \"250\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"24\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"rufinamide\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:07\",\n        \"cct_modified\": \"2023-05-31 20:29:07\",\n        \"cct_single_post_id\": \"249\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"23\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"aminocaproic-acid\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:07\",\n        \"cct_modified\": \"2023-05-31 20:29:07\",\n        \"cct_single_post_id\": \"248\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"22\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Chlorhexidine gluconate\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:07\",\n        \"cct_modified\": \"2023-05-31 20:29:07\",\n        \"cct_single_post_id\": \"247\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"21\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"pindolol\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:06\",\n        \"cct_modified\": \"2023-05-31 20:29:06\",\n        \"cct_single_post_id\": \"246\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"20\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Difenoxin\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:06\",\n        \"cct_modified\": \"2023-05-31 20:29:06\",\n        \"cct_single_post_id\": \"245\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"19\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"ioxaglic-acid\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:05\",\n        \"cct_modified\": \"2023-05-31 20:29:05\",\n        \"cct_single_post_id\": \"244\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"18\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"piperacillin\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:04\",\n        \"cct_modified\": \"2023-05-31 20:29:04\",\n        \"cct_single_post_id\": \"243\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"17\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"cidofovir\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:04\",\n        \"cct_modified\": \"2023-05-31 20:29:04\",\n        \"cct_single_post_id\": \"242\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"16\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"dacarbazine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:03\",\n        \"cct_modified\": \"2023-05-31 20:29:03\",\n        \"cct_single_post_id\": \"241\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"15\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"probenecid\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:02\",\n        \"cct_modified\": \"2023-05-31 20:29:02\",\n        \"cct_single_post_id\": \"240\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"14\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"fluorometholone-acetate\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:02\",\n        \"cct_modified\": \"2023-05-31 20:29:02\",\n        \"cct_single_post_id\": \"239\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"13\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"chlorpropamide\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:02\",\n        \"cct_modified\": \"2023-05-31 20:29:02\",\n        \"cct_single_post_id\": \"238\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"12\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"tolbutamide\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:01\",\n        \"cct_modified\": \"2023-05-31 20:29:01\",\n        \"cct_single_post_id\": \"237\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"11\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"azatadine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:00\",\n        \"cct_modified\": \"2023-05-31 20:29:00\",\n        \"cct_single_post_id\": \"236\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"10\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"tedizolid-phosphate\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:29:00\",\n        \"cct_modified\": \"2023-05-31 20:29:00\",\n        \"cct_single_post_id\": \"235\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"9\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Valdecoxib\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:28:59\",\n        \"cct_modified\": \"2023-05-31 20:28:59\",\n        \"cct_single_post_id\": \"234\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"8\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"methantheline\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:28:58\",\n        \"cct_modified\": \"2023-05-31 20:28:58\",\n        \"cct_single_post_id\": \"233\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"7\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"brivaracetam\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 20:28:58\",\n        \"cct_modified\": \"2023-05-31 20:28:58\",\n        \"cct_single_post_id\": \"232\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"6\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Vilazodone\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 16:51:24\",\n        \"cct_modified\": \"2023-05-31 16:51:24\",\n        \"cct_single_post_id\": \"130\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"5\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Desvenlafaxine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-31 16:45:39\",\n        \"cct_modified\": \"2023-05-31 16:45:39\",\n        \"cct_single_post_id\": \"129\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"4\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Risperidone\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-29 19:21:32\",\n        \"cct_modified\": \"2023-05-29 19:21:32\",\n        \"cct_single_post_id\": \"91\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"3\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Clomipramine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-29 16:06:53\",\n        \"cct_modified\": \"2023-05-29 16:07:46\",\n        \"cct_single_post_id\": \"14\",\n        \"cct_slug\": \"drugs\"\n    },\n    {\n        \"_ID\": \"2\",\n        \"cct_status\": \"publish\",\n        \"drug_name\": \"Fluvoxamine\",\n        \"indication_name\": \"\",\n        \"cct_author_id\": \"1\",\n        \"cct_created\": \"2023-05-29 14:58:17\",\n        \"cct_modified\": \"2023-05-29 14:58:50\",\n        \"cct_single_post_id\": \"12\",\n        \"cct_slug\": \"drugs\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Drugs",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/wordpress/index.php/wp-json/jet-cct/drugs?drug_name=Desvenlafaxine",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"wordpress",
+								"index.php",
+								"wp-json",
+								"jet-cct",
+								"drugs"
+							],
+							"query": [
+								{
+									"key": "drug_name",
+									"value": "Desvenlafaxine"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/wordpress/index.php/wp-json/jet-cct/drugs?drug_name=Vilazodone",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"wordpress",
+										"index.php",
+										"wp-json",
+										"jet-cct",
+										"drugs"
+									],
+									"query": [
+										{
+											"key": "drug_name",
+											"value": "Vilazodone"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 16:51:24 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST"
+								},
+								{
+									"key": "Content-Length",
+									"value": "28"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"item_id\": 6\n}"
+						}
+					]
+				}
+			],
+			"description": "These endpoints connect to JetEngine's Custom Content Types.\n\n- Conditions\n- Indications\n- Drugs\n    \n\nThe relationships between these content types are defined in the following folders.\n\n- Condition -> Drug\n- Drug -> Indications\n    \n\nSee their folders for more details."
+		},
+		{
+			"name": "Condition->Drug",
+			"item": [
+				{
+					"name": "Condition -> Drug",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/9"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:33:00 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, PUT, PATCH"
+								},
+								{
+									"key": "Content-Length",
+									"value": "139"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"1\": [\n        {\n            \"child_object_id\": \"2\"\n        },\n        {\n            \"child_object_id\": \"3\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Conditions treated by a drug (parent relationship)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/9/parents/4"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/9/parents/4"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:21:15 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET"
+								},
+								{
+									"key": "Content-Length",
+									"value": "26"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"parent_object_id\": \"2\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Drugs under a condition (children)",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/9/children/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:48:34 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET"
+								},
+								{
+									"key": "Content-Length",
+									"value": "49"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"child_object_id\": \"3\"\n    },\n    {\n        \"child_object_id\": \"2\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "New  Condition-> Drug relationship",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/wordpress/index.php/wp-json/jet-rel/9?parent_id&child_id&context&store_items_type",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"wordpress",
+								"index.php",
+								"wp-json",
+								"jet-rel",
+								"9"
+							],
+							"query": [
+								{
+									"key": "parent_id",
+									"value": null
+								},
+								{
+									"key": "child_id",
+									"value": null
+								},
+								{
+									"key": "context",
+									"value": null,
+									"description": "context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object"
+								},
+								{
+									"key": "store_items_type",
+									"value": null,
+									"description": " replace/update, 'repalce' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings)."
+								}
+							]
+						},
+						"description": "Where:\n\n- context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object\n- store_items_type - 'repalce' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings)."
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/wordpress/index.php/wp-json/jet-rel/9?parent_id=7&child_id=5&store_items_type=update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"wordpress",
+										"index.php",
+										"wp-json",
+										"jet-rel",
+										"9"
+									],
+									"query": [
+										{
+											"key": "parent_id",
+											"value": "7",
+											"description": "condition"
+										},
+										{
+											"key": "child_id",
+											"value": "5",
+											"description": "drug"
+										},
+										{
+											"key": "context",
+											"value": null,
+											"description": "context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object",
+											"disabled": true
+										},
+										{
+											"key": "store_items_type",
+											"value": "update",
+											"description": " replace/update, 'replace' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings)."
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:29:52 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, PUT, PATCH"
+								},
+								{
+									"key": "Content-Length",
+									"value": "16"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drug -> Indications",
+			"item": [
+				{
+					"name": "Drug -> Indications",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/3"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:34:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, PUT, PATCH"
+								},
+								{
+									"key": "Content-Length",
+									"value": "121"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"1\": [\n        {\n            \"child_object_id\": \"1\"\n        }\n    ],\n    \"2\": [\n        {\n            \"child_object_id\": \"3\"\n        }\n    ],\n    \"3\": [\n        {\n            \"child_object_id\": \"4\"\n        }\n    ],\n    \"4\": [\n        {\n            \"child_object_id\": \"5\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Indication of a Drug (Children)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/9/parents/4"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/3/children/6"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:47:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET"
+								},
+								{
+									"key": "Content-Length",
+									"value": "25"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"child_object_id\": \"6\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Drug of an indication (parent)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/3/parents/"
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost/wordpress/index.php/wp-json/jet-rel/3/parents/7"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:46:14 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET"
+								},
+								{
+									"key": "Content-Length",
+									"value": "26"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"parent_object_id\": \"5\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "New Indication -> Drug relationship",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/wordpress/index.php/wp-json/jet-rel/9?parent_id&child_id&context&store_items_type",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"wordpress",
+								"index.php",
+								"wp-json",
+								"jet-rel",
+								"9"
+							],
+							"query": [
+								{
+									"key": "parent_id",
+									"value": null,
+									"description": "Drug"
+								},
+								{
+									"key": "child_id",
+									"value": null,
+									"description": "Indications"
+								},
+								{
+									"key": "context",
+									"value": null,
+									"description": "context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object"
+								},
+								{
+									"key": "store_items_type",
+									"value": null,
+									"description": " replace/update, 'repalce' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings)."
+								}
+							]
+						},
+						"description": "Where:\n\n- context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object\n- store_items_type - 'repalce' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings)."
+					},
+					"response": [
+						{
+							"name": "Example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/wordpress/index.php/wp-json/jet-rel/3?parent_id=5&child_id=7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"wordpress",
+										"index.php",
+										"wp-json",
+										"jet-rel",
+										"3"
+									],
+									"query": [
+										{
+											"key": "parent_id",
+											"value": "5",
+											"description": "Drug ID"
+										},
+										{
+											"key": "child_id",
+											"value": "7",
+											"description": "Indications id"
+										},
+										{
+											"key": "context",
+											"value": null,
+											"description": "context - 'child' means we updating children items for static parent object, 'parent' means we updating parent items for static child object",
+											"disabled": true
+										},
+										{
+											"key": "store_items_type",
+											"value": null,
+											"description": " replace/update, 'repalce' means if related object for given context already exists, it will be replaced with new one, 'update' means if related object for given context already exists, new related items will be added to already existsing (if allowed by relation settings).",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 31 May 2023 18:43:45 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "X-Robots-Tag",
+									"value": "noindex"
+								},
+								{
+									"key": "Link",
+									"value": "<http://localhost/wordpress/index.php/wp-json/>; rel=\"https://api.w.org/\""
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Access-Control-Expose-Headers",
+									"value": "X-WP-Total, X-WP-TotalPages, Link"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 11 Jan 1984 05:00:00 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, must-revalidate, max-age=0"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, PUT, PATCH"
+								},
+								{
+									"key": "Content-Length",
+									"value": "264"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"password": "djHS Nn3f F6XC TCys eSSC mVtA",
+			"username": "flavio"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
