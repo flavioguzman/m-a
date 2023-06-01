@@ -30,3 +30,6 @@ This is yet to be built.
 5. **Create relationships between conditions, drugs, and indications**: At this stage, helper functions are introduced to aid in getting the ID of a post by type and title, and creating a new post. A script reads the JSON file and uses these helper functions to create a new post for each condition, drug, and indication in the data. It also uses the JetEngine's API to create relationships between these CCTs.
 
 Each script has error handling measures in place and is well-commented for easier understanding and debugging. The steps in this strategy ensure that data is successfully transferred from the PostgreSQL database to the WordPress site, while avoiding the creation of duplicate posts and preserving the relationships between conditions, drugs, and indications.
+
+## Wordpress Medical Academy.postman_collection.json
+This file contains all the information needed to connect to the Custom Content Types API. 
