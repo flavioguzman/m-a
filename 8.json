@@ -1,0 +1,1827 @@
+{
+    "USapproved": "WOH1JD9AR8:3",
+    "kind": "ncats.stitcher.Stitch",
+    "highestPhase": "WOH1JD9AR8:3",
+    "rank": 5,
+    "initiallyMarketedUS": "WOH1JD9AR8:2",
+    "initiallyMarketed": "WOH1JD9AR8:2",
+    "id": 972198,
+    "source": "d58d0d292",
+    "datasource": {
+        "id": 718952,
+        "key": "d58d0d292",
+        "name": "stitch_v1"
+    },
+    "labels": [
+        "Broad Institute Drug List 2018-09-07",
+        "Clinical",
+        "ClinicalTrials, February 2021",
+        "DPD",
+        "DailyMed Rx, December 2021",
+        "Designation",
+        "Discontinued",
+        "DrugBank, July 2020",
+        "Drugs@FDA",
+        "FDA NDC",
+        "FRDB, October 2021",
+        "G-SRS, December 2022",
+        "Marketed",
+        "SGROUP",
+        "S_STITCH_V1",
+        "USApprovalRx",
+        "USPreviouslyMarketed"
+    ],
+    "sgroup": {
+        "hash": "d58d0d29263faebd45",
+        "size": 5,
+        "parent": 27477,
+        "members": [
+            {
+                "source": "Broad Institute Drug List 2018-09-07",
+                "node": 6413,
+                "payloadNode": 6414,
+                "id": "olaparib",
+                "stitches": {
+                    "H_LyChI_L3": [
+                        "XMAMWLXFV3Q-N"
+                    ],
+                    "H_LyChI_L4": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "H_LyChI_L5": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "N_Name": [
+                        "OLAPARIB"
+                    ]
+                }
+            },
+            {
+                "source": "G-SRS, December 2022",
+                "node": 27477,
+                "payloadNode": 27479,
+                "id": "WOH1JD9AR8",
+                "name": "OLAPARIB",
+                "stitches": {
+                    "H_LyChI_L3": [
+                        "XMAMWLXFV3Q-N"
+                    ],
+                    "H_LyChI_L4": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "H_LyChI_L5": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "I_UNII": [
+                        "WOH1JD9AR8"
+                    ],
+                    "N_Name": [
+                        "OLAPARIB"
+                    ],
+                    "R_activeMoiety": "WOH1JD9AR8"
+                },
+                "stitchType": "Active Moiety"
+            },
+            {
+                "source": "G-SRS, December 2022",
+                "node": 314633,
+                "payloadNode": 314634,
+                "id": "Q67E7B7KG6",
+                "name": "Olaparib hemi-2-propanol",
+                "stitches": {
+                    "H_LyChI_L3": [
+                        "Q1FNXB1N2A4-S",
+                        "XMAMWLXFV3Q-N"
+                    ],
+                    "H_LyChI_L4": [
+                        "Q142PPDGC27V-S",
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "R_activeMoiety": "WOH1JD9AR8"
+                },
+                "stitchType": "Salt/Solvate"
+            },
+            {
+                "source": "FRDB, October 2021",
+                "node": 459437,
+                "payloadNode": 459438,
+                "id": "OLAPARIB",
+                "name": "OLAPARIB",
+                "stitches": {
+                    "H_LyChI_L3": [
+                        "XMAMWLXFV3Q-N"
+                    ],
+                    "H_LyChI_L4": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "H_LyChI_L5": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "I_UNII": [
+                        "WOH1JD9AR8"
+                    ],
+                    "N_Name": [
+                        "OLAPARIB"
+                    ]
+                }
+            },
+            {
+                "source": "DrugBank, July 2020",
+                "node": 512309,
+                "payloadNode": 512310,
+                "id": "DB09074",
+                "name": "Olaparib",
+                "stitches": {
+                    "H_LyChI_L3": [
+                        "XMAMWLXFV3Q-N"
+                    ],
+                    "H_LyChI_L4": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "H_LyChI_L5": [
+                        "XMQM7BMR67PF-N"
+                    ],
+                    "I_UNII": [
+                        "WOH1JD9AR8"
+                    ],
+                    "N_Name": [
+                        "OLAPARIB"
+                    ]
+                }
+            }
+        ],
+        "properties": {
+            "CAS": [
+                {
+                    "node": 459438,
+                    "value": "763113-22-0"
+                },
+                {
+                    "node": 314634,
+                    "value": "2126824-40-4"
+                }
+            ],
+            "CHEBI": [
+                {
+                    "node": 27479,
+                    "value": "83766"
+                }
+            ],
+            "ChEMBL": [
+                {
+                    "node": 459438,
+                    "value": "CHEMBL521686"
+                }
+            ],
+            "DAILYMED": [
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                }
+            ],
+            "DRUG BANK": [
+                {
+                    "node": 512310,
+                    "value": "DB09074"
+                }
+            ],
+            "DRUG CENTRAL": [
+                {
+                    "node": 27479,
+                    "value": "4907"
+                }
+            ],
+            "EMA ASSESSMENT REPORTS": [
+                {
+                    "node": 27479,
+                    "value": "LYNPARZA (AUTHORIZED: OVARIAN NEOPLASMS)"
+                }
+            ],
+            "EU-Orphan Drug": [
+                {
+                    "node": 27479,
+                    "value": "EU/3/07/501"
+                }
+            ],
+            "EVMPD": [
+                {
+                    "node": 27479,
+                    "value": "SUB32234"
+                }
+            ],
+            "FDA ORPHAN DRUG": [
+                {
+                    "node": 27479,
+                    "value": "419013"
+                },
+                {
+                    "node": 27479,
+                    "value": "417613"
+                },
+                {
+                    "node": 27479,
+                    "value": "409213"
+                },
+                {
+                    "node": 27479,
+                    "value": "655318"
+                }
+            ],
+            "FDA UNII": [
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                },
+                {
+                    "node": 314634,
+                    "value": "Q67E7B7KG6"
+                }
+            ],
+            "INN": [
+                {
+                    "node": 27479,
+                    "value": "8685"
+                }
+            ],
+            "IUPHAR": [
+                {
+                    "node": 27479,
+                    "value": "7519"
+                }
+            ],
+            "InChIKey": {
+                "node": 512310,
+                "value": "FDLYAMZZIXQODN-UHFFFAOYSA-N"
+            },
+            "LACTMED": [
+                {
+                    "node": 512310,
+                    "value": "Olaparib"
+                }
+            ],
+            "MERCK INDEX": [
+                {
+                    "node": 27479,
+                    "value": "M8185"
+                }
+            ],
+            "MESH": [
+                {
+                    "node": 27479,
+                    "value": "C531550"
+                }
+            ],
+            "MOLFILE": [
+                {
+                    "node": 27479,
+                    "value": "WOH1JD9AR8\n  Marvin  02132323452D          \n\n 32 36  0  0  0  0            999 V2000\n    7.8556   -2.4299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8548   -3.2586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5694   -3.6738    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5682   -2.0179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2861   -2.4275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2841   -3.2562    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9969   -3.6702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7162   -3.2597    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7183   -2.4310    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0010   -2.0125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0018   -1.1856    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9927   -4.4930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7057   -4.9080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7001   -5.7340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.4122   -6.1489    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1290   -5.7389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1293   -4.9096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.4166   -4.4984    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8448   -4.4960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5577   -4.9080    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8447   -3.6690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.5554   -5.7325    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2643   -6.1444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9801   -5.7364    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.9824   -4.9120    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2689   -4.4955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6938   -6.1470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.4068   -5.7350    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.6946   -6.9739    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2302   -5.7347    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8182   -5.0216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.8448   -6.1499    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  5  4  2  0  0  0  0\n 15 16  2  0  0  0  0\n  4  1  1  0  0  0  0\n 16 17  1  0  0  0  0\n  5 10  1  0  0  0  0\n 17 18  2  0  0  0  0\n 18 13  1  0  0  0  0\n  6  7  1  0  0  0  0\n 17 19  1  0  0  0  0\n  7  8  2  0  0  0  0\n 19 20  1  0  0  0  0\n  8  9  1  0  0  0  0\n 19 21  2  0  0  0  0\n 20 22  1  0  0  0  0\n  9 10  1  0  0  0  0\n  5  6  1  0  0  0  0\n 10 11  2  0  0  0  0\n  7 12  1  0  0  0  0\n 20 26  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n  2  3  1  0  0  0  0\n 24 27  1  0  0  0  0\n 12 13  1  0  0  0  0\n 27 28  1  0  0  0  0\n  3  6  2  0  0  0  0\n 27 29  2  0  0  0  0\n 30 28  1  0  0  0  0\n 31 30  1  0  0  0  0\n 28 31  1  0  0  0  0\n 13 14  2  0  0  0  0\n  1  2  2  0  0  0  0\n 14 15  1  0  0  0  0\n 16 32  1  0  0  0  0\nM  END\n"
+                },
+                {
+                    "node": 314634,
+                    "value": "Q67E7B7KG6\n  Marvin  02142301522D          \n\n 68 75  0  0  0  0            999 V2000\n    8.3206   -2.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3198   -3.2572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0341   -3.6722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0329   -2.0171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7504   -2.4265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7485   -3.2548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4609   -3.6686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1799   -3.2583    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1820   -2.4300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4650   -2.0117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4658   -1.1852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4567   -4.4910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1694   -4.9058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1638   -5.7314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8756   -6.1461    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5920   -5.7363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5923   -4.9074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8800   -4.4964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3075   -4.4940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0200   -4.9058    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3074   -3.6674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0178   -5.7299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7263   -6.1416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4418   -5.7338    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4441   -4.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7309   -4.4935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1551   -6.1442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8678   -5.7324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1559   -6.9707    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6908   -5.7321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2790   -5.0193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3075   -6.1471    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   19.5080   -4.8494    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2239   -4.4361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.2239   -3.6095    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9397   -4.8494    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3206   -2.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3198   -3.2572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0341   -3.6722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0329   -2.0171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7504   -2.4265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7485   -3.2548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4609   -3.6686    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1799   -3.2583    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1820   -2.4300    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4650   -2.0117    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4658   -1.1852    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4567   -4.4910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1694   -4.9058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1638   -5.7314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8756   -6.1461    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5920   -5.7363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5923   -4.9074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8800   -4.4964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3075   -4.4940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0200   -4.9058    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3074   -3.6674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0178   -5.7299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7263   -6.1416    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4418   -5.7338    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4441   -4.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7309   -4.4935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1551   -6.1442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8678   -5.7324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1559   -6.9707    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6908   -5.7321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2790   -5.0193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3075   -6.1471    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  5  4  2  0  0  0  0\n 15 16  2  0  0  0  0\n  4  1  1  0  0  0  0\n 16 17  1  0  0  0  0\n  5 10  1  0  0  0  0\n 17 18  2  0  0  0  0\n 18 13  1  0  0  0  0\n  6  7  1  0  0  0  0\n 17 19  1  0  0  0  0\n  7  8  2  0  0  0  0\n 19 20  1  0  0  0  0\n  8  9  1  0  0  0  0\n 19 21  2  0  0  0  0\n 20 22  1  0  0  0  0\n  9 10  1  0  0  0  0\n  5  6  1  0  0  0  0\n 10 11  2  0  0  0  0\n  7 12  1  0  0  0  0\n 20 26  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n  2  3  1  0  0  0  0\n 24 27  1  0  0  0  0\n 12 13  1  0  0  0  0\n 27 28  1  0  0  0  0\n  3  6  2  0  0  0  0\n 27 29  2  0  0  0  0\n 30 28  1  0  0  0  0\n 31 30  1  0  0  0  0\n 28 31  1  0  0  0  0\n 13 14  2  0  0  0  0\n  1  2  2  0  0  0  0\n 14 15  1  0  0  0  0\n 16 32  1  0  0  0  0\n 33 34  1  0  0  0  0\n 34 35  1  0  0  0  0\n 34 36  1  0  0  0  0\n 40 37  1  0  0  0  0\n 37 38  2  0  0  0  0\n 38 39  1  0  0  0  0\n 39 42  2  0  0  0  0\n 41 40  2  0  0  0  0\n 41 46  1  0  0  0  0\n 41 42  1  0  0  0  0\n 42 43  1  0  0  0  0\n 43 44  2  0  0  0  0\n 43 48  1  0  0  0  0\n 44 45  1  0  0  0  0\n 45 46  1  0  0  0  0\n 46 47  2  0  0  0  0\n 48 49  1  0  0  0  0\n 54 49  1  0  0  0  0\n 49 50  2  0  0  0  0\n 50 51  1  0  0  0  0\n 51 52  2  0  0  0  0\n 52 53  1  0  0  0  0\n 52 68  1  0  0  0  0\n 53 54  2  0  0  0  0\n 53 55  1  0  0  0  0\n 55 56  1  0  0  0  0\n 55 57  2  0  0  0  0\n 56 58  1  0  0  0  0\n 56 62  1  0  0  0  0\n 58 59  1  0  0  0  0\n 59 60  1  0  0  0  0\n 60 61  1  0  0  0  0\n 60 63  1  0  0  0  0\n 61 62  1  0  0  0  0\n 63 64  1  0  0  0  0\n 63 65  2  0  0  0  0\n 66 64  1  0  0  0  0\n 64 67  1  0  0  0  0\n 67 66  1  0  0  0  0\nM  STY  1   1 MUL\nM  SAL   1 15   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15\nM  SAL   1 15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30\nM  SAL   1 15  31  32  37  38  39  40  41  42  43  44  45  46  47  48  49\nM  SAL   1 15  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64\nM  SAL   1  4  65  66  67  68\nM  SPA   1 15   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15\nM  SPA   1 15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30\nM  SPA   1  2  31  32\nM  SDI   1  4    7.8998   -7.3907    7.8998   -0.7652\nM  SDI   1  4   18.1108   -0.7652   18.1108   -7.3907\nM  SMT   1 2\nM  END\n"
+                },
+                {
+                    "node": 459438,
+                    "value": "\n  Marvin  02142303370D          \n\n 32 36  0  0  0  0            999 V2000\n    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  3  5  1  0  0  0  0\n  2  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  6  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n 10 11  1  0  0  0  0\n  8 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n 12 13  1  0  0  0  0\n 13 14  4  0  0  0  0\n 14 15  4  0  0  0  0\n 15 16  1  0  0  0  0\n 16 17  1  0  0  0  0\n 17 18  1  0  0  0  0\n 18 19  4  0  0  0  0\n 19 20  4  0  0  0  0\n 20 21  4  0  0  0  0\n 21 22  4  0  0  0  0\n 22 23  4  0  0  0  0\n 18 23  4  0  0  0  0\n 17 24  2  3  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 19 26  1  0  0  0  0\n 26 27  2  0  0  0  0\n 15 28  4  0  0  0  0\n 28 29  4  0  0  0  0\n 13 30  4  0  0  0  0\n 29 30  4  0  0  0  0\n 30 31  1  0  0  0  0\n 12 32  2  0  0  0  0\nM  END\n"
+                }
+            ],
+            "NCI_THESAURUS": [
+                {
+                    "node": 27479,
+                    "value": "C71721"
+                }
+            ],
+            "NDF-RT": [
+                {
+                    "node": 27479,
+                    "value": "N0000191623"
+                },
+                {
+                    "node": 27479,
+                    "value": "N0000191622"
+                }
+            ],
+            "NSC": [
+                {
+                    "node": 27479,
+                    "value": "747856"
+                }
+            ],
+            "PUBCHEM": [
+                {
+                    "node": 459438,
+                    "value": 23725625
+                }
+            ],
+            "PreferredName": [
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                },
+                {
+                    "node": 314634,
+                    "value": "Olaparib hemi-2-propanol"
+                }
+            ],
+            "RXCUI": [
+                {
+                    "node": 27479,
+                    "value": "1597582"
+                }
+            ],
+            "References": [
+                {
+                    "node": 314634,
+                    "value": "STN"
+                },
+                {
+                    "node": 27479,
+                    "value": "ACD 9.0"
+                },
+                {
+                    "node": 27479,
+                    "value": "FDA_SRS"
+                },
+                {
+                    "node": 27479,
+                    "value": "Wikipedia"
+                },
+                {
+                    "node": 27479,
+                    "value": "USP DICTIONARY 2010"
+                },
+                {
+                    "node": 27479,
+                    "value": "INN 2010"
+                },
+                {
+                    "node": 27479,
+                    "value": "MARTINDALE 2011"
+                },
+                {
+                    "node": 27479,
+                    "value": "STN 2011"
+                },
+                {
+                    "node": 27479,
+                    "value": "MERCK INDEX"
+                },
+                {
+                    "node": 27479,
+                    "value": "WHO-DD"
+                },
+                {
+                    "node": 27479,
+                    "value": "USAN COUN 2014"
+                },
+                {
+                    "node": 27479,
+                    "value": "NDF-RT"
+                },
+                {
+                    "node": 27479,
+                    "value": "http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e31a6a9-864f-4aba-8085-37ee1ddcd499"
+                },
+                {
+                    "node": 27479,
+                    "value": "SRS CODE IMPORT"
+                },
+                {
+                    "node": 27479,
+                    "value": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf"
+                },
+                {
+                    "node": 27479,
+                    "value": "http://dx.doi.org/10.1080/00498254.2016.1241449"
+                },
+                {
+                    "node": 27479,
+                    "value": "SRS import [WOH1JD9AR8]"
+                },
+                {
+                    "node": 314634,
+                    "value": "INN"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [INN]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [MART.]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [MI]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [WHO-DD]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [USAN]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [VANDF]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [DASH]"
+                },
+                {
+                    "node": 27479,
+                    "value": "orange book"
+                },
+                {
+                    "node": 27479,
+                    "value": "JAN"
+                },
+                {
+                    "node": 27479,
+                    "value": "CLIN TRIALS"
+                },
+                {
+                    "node": 27479,
+                    "value": "https://www.clinicalkey.com/pharmacology/monograph/3972?sec=monphar"
+                },
+                {
+                    "node": 27479,
+                    "value": "https://clinicaltrials.gov/ct2/show/NCT03834519"
+                },
+                {
+                    "node": 27479,
+                    "value": "USAN COUN 2013"
+                },
+                {
+                    "node": 27479,
+                    "value": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf"
+                },
+                {
+                    "node": 27479,
+                    "value": "OB"
+                },
+                {
+                    "node": 314634,
+                    "value": "INN Proposed List 94"
+                },
+                {
+                    "node": 27479,
+                    "value": "USAD COUN"
+                },
+                {
+                    "node": 27479,
+                    "value": "NCI"
+                },
+                {
+                    "node": 27479,
+                    "value": "DailyMed"
+                }
+            ],
+            "SMILES": [
+                {
+                    "node": 27479,
+                    "value": "\u0014-"
+                },
+                {
+                    "node": 314634,
+                    "value": "CC(C)O.FC1=CC=C(CC2=NNC(=O)C3=CC=CC=C23)C=C1C(=O)N4CCN(CC4)C(=O)C5CC5.FC6=CC=C(CC7=NNC(=O)C8=CC=CC=C78)C=C6C(=O)N9CCN(CC9)C(=O)C%10CC%10"
+                },
+                {
+                    "node": 459438,
+                    "value": "Fc1ccc(CC2=NNC(=O)c3ccccc23)cc1C(=O)N4CCN(CC4)C(=O)C5CC5"
+                },
+                {
+                    "node": 512310,
+                    "value": "\u0014-"
+                }
+            ],
+            "Synonyms": [
+                {
+                    "node": 459438,
+                    "value": "1(2H)-PHTHALAZINONE, 4-((3-((4-(CYCLOPROPYLCARBONYL)-1-PIPERAZINYL)CARBONYL)-4-FLUOROPHENYL)METHYL)-"
+                },
+                {
+                    "node": 27479,
+                    "value": "4-[(3-{[4-(Cyclopropylcarbonyl)piperazin-1-yl]carbonyl}-4-fluorophenyl)methyl]phthalazin-1(2H)-one"
+                },
+                {
+                    "node": 27479,
+                    "value": "AZ-2281"
+                },
+                {
+                    "node": 27479,
+                    "value": "AZ2281"
+                },
+                {
+                    "node": 459438,
+                    "value": "AZD-2281"
+                },
+                {
+                    "node": 459438,
+                    "value": "AZD2281"
+                },
+                {
+                    "node": 27479,
+                    "value": "KEYLYNK-010 COMPONENT OLAPARIB"
+                },
+                {
+                    "node": 459438,
+                    "value": "KU-0059436"
+                },
+                {
+                    "node": 459438,
+                    "value": "KU-59436"
+                },
+                {
+                    "node": 459438,
+                    "value": "LYNPARZA"
+                },
+                {
+                    "node": 27479,
+                    "value": "NSC-747856"
+                },
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB COMPONENT OF KEYLYNK-010"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [JAN]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [MART.]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [MI]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [ORANGE BOOK]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [USAN]"
+                },
+                {
+                    "node": 27479,
+                    "value": "OLAPARIB [VANDF]"
+                },
+                {
+                    "node": 27479,
+                    "value": "Olaparib [WHO-DD]"
+                },
+                {
+                    "node": 459438,
+                    "value": "PIPERAZINE, 1-(CYCLOPROPYLCARBONYL)-4-(5-((3,4-DIHYDRO-4-OXO-1-PHTHALAZINYL)METHYL)-2-FLUOROBENZOYL)-"
+                },
+                {
+                    "node": 27479,
+                    "value": "olaparib [INN]"
+                },
+                {
+                    "node": 314634,
+                    "value": "1(2H)-Phthalazinone, 4-[[3-[[4-(cyclopropylcarbonyl)-1-piperazinyl]carbonyl]-4-fluorophenyl]methyl]-, compd. with 2-propanol (2:1)"
+                },
+                {
+                    "node": 314634,
+                    "value": "Olaparib hemi-2-propanol"
+                }
+            ],
+            "UNII": [
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                },
+                {
+                    "node": 314634,
+                    "value": "Q67E7B7KG6"
+                }
+            ],
+            "USAN": [
+                {
+                    "node": 27479,
+                    "value": "BC-28"
+                }
+            ],
+            "WHO-ATC": [
+                {
+                    "node": 27479,
+                    "value": "L01XX46"
+                }
+            ],
+            "WIKIPEDIA": [
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                }
+            ],
+            "bindingdb_id": [
+                {
+                    "node": 459438,
+                    "value": "27566"
+                }
+            ],
+            "broad_name": {
+                "node": 6414,
+                "value": "olaparib"
+            },
+            "cas": [
+                {
+                    "node": 459438,
+                    "value": "763113-22-0"
+                }
+            ],
+            "chembl_id": [
+                {
+                    "node": 459438,
+                    "value": "CHEMBL521686"
+                }
+            ],
+            "chemspider_id": [
+                {
+                    "node": 459438,
+                    "value": "23343272"
+                }
+            ],
+            "cid": [
+                {
+                    "node": 459438,
+                    "value": "23725625"
+                }
+            ],
+            "clearance": {
+                "node": 512310,
+                "value": "The total clearance of olaparib was reported to be 4.6 L/h.[A35290]"
+            },
+            "cns": [
+                {
+                    "node": 459438,
+                    "value": "Unknown"
+                }
+            ],
+            "cns_uri": [
+                {
+                    "node": 459438,
+                    "value": "Unknown"
+                }
+            ],
+            "compound_description": [
+                {
+                    "node": 459438,
+                    "value": "Olaparib is an oral inhibitor of poly (ADP-ribose) polymerase enzymes, including PARP1, PARP2, and PARP3 which are involved in normal cellular homeostasis, such as DNA transcription, cell cycle regulation, and DNA repair. Olaparib has shown activity in ovarian and breast tumors with known BRCA mutations and was the first FDA approved drug in this class. Lynparza (olaparib) is indicated for treatment of gBRCA-mutated advanced ovarian cancer. Its use together with other chemotherapy medicines can lead to increased effects on the blood resulting in reduction in the numbers of white blood cells and platelets, and anaemia."
+                }
+            ],
+            "conditions": [
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8.0,\"name\":\"Ovarian cancer\",\"condition_uri\":\"http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"condition_comment\":\" \",\"product_name\":\"LYNPARZA\",\"product_date\":1418947200000,\"condition_highest_phase\":\"Approved\",\"highest_phase_uri\":\"http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"fda_use\":\"Monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy.\",\"offlabel_use\":\"Metastatic castrate resistant prostate cancer|Recurrent breast cancer with BRCA1/2 mutation|Recurrent or metastatic gastric cancer (in combination with paclitaxel)\",\"offlabel_use_uri\":\"http://www.pbm.va.gov/PBM/clinicalguidance/drugmonographs/Olaparib_LYNPARZA_Drug_Monograph.pdf\",\"offlabel_use_comment\":\" \",\"clinical_trial\":\"NCT02208375\",\"condition_treatment_modality\":\"Primary\",\"condition_do_imprecise\":false,\"condition_mesh_imprecise\":false,\"mesh_id\":10040.0,\"do_id\":4412.0,\"is_fda_use\":true,\"fda_use_uri\":\"http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"fda_use_comment\":\"The indication is approved under accelerated approval based on objective response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials.\",\"is_product_manual\":false,\"highest_phase_discontinued\":false,\"product_discontinued\":false,\"is_product_date_unknown\":false,\"target_refs\":[1443,1444,1442],\"condition_id\":1137}"
+                }
+            ],
+            "created": [
+                {
+                    "node": 6414,
+                    "value": 1676331296514
+                },
+                {
+                    "node": 27479,
+                    "value": 1676331928906
+                },
+                {
+                    "node": 314634,
+                    "value": 1676339541338
+                },
+                {
+                    "node": 459438,
+                    "value": 1676345856658
+                },
+                {
+                    "node": 512310,
+                    "value": 1676347518629
+                }
+            ],
+            "curated_by": [
+                {
+                    "node": 459438,
+                    "value": "oleg.stroganov@gmail.com"
+                }
+            ],
+            "ddi": [
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_clin_comment\":\"Itraconazole (strong CYP3A inhibitor) increased the AUC of olaparib by 2.7-fold and PBPK modeling predicted that fluconazole (moderate CYP3A inhibitor) would likely increase olaparib AUC by 2-fold.\",\"ddi_clin_evidence\":\"co-administration study\",\"ddi_clin_support\":\"yes\",\"ddi_relation\":\"substrate\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP3A\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=4\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"substrate\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP2A6\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=29\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"substrate\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP1A1\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=29\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_comment\":\"Up to 1.5 fold induction of CYP2B6 was observed with 3 \u00b5M of olaparib and up to 3.2 fold induction at the olaparib concentration of 30 \u00b5M. T\",\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP2B6\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"substrate\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"P-gp\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=34\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_comment\":\"Data suggests that olaparib is a substrate of organic anion transporters (OATs) but the sponsor was not able to specify which ones due to large variability in the study KMX042.\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"OAT\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"37.9\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"OCT1\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"19.9\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"OCT2\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"weak\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"18.4\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"OAT3\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"weak\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"5.5\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"MATE1\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"weak\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"47.1\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"MATE2\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"20.3\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"OATP1B1\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"weak\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_comment\":\"Olaparib 10 \u00b5M inhibited the efflux of calcein (MRP2 substrate) by 25% in MDCKII cells transfected with MRP2.\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"MRP2\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=35\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP3A4\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=79\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP1A2\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2C9\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2C19\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inducer\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP3A\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP1A2\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2A6\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2B6\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2C8\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2C9\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2C19\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2D6\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"10\",\"ddi_concentration\":\">100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"CYP2E1\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_activity\":\"44\",\"ddi_concentration\":\"100\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"CYP3A\",\"ddi_type\":\"Inhibition\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=33\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"substrate\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"BCRP\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=34\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"BCRP\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=34\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"yes\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"no\",\"ddi_target\":\"P-gp\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf#page=34\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"ddi_concentration\":\"226\",\"ddi_relation\":\"inhibitor\",\"ddi_reported_magnitude\":\"yes\",\"ddi_target\":\"hERG\",\"ddi_type\":\"IC50\",\"ddi_url\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000PharmR.pdf#page=58\",\"ddi_page\":\"-\",\"ddi_magnitude\":\"no\"}"
+                }
+            ],
+            "description": {
+                "node": 512310,
+                "value": "xenobiotic transport"
+            },
+            "description_comment": [
+                {
+                    "node": 459438,
+                    "value": "Description was created based on several sources, including:\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4880823/"
+                }
+            ],
+            "description_uri": [
+                {
+                    "node": 459438,
+                    "value": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf"
+                }
+            ],
+            "diseaseArea": {
+                "node": 6414,
+                "value": "oncology"
+            },
+            "drugbank-id": {
+                "node": 512310,
+                "value": "DB09074"
+            },
+            "drugbank-id-others": [
+                {
+                    "node": 512310,
+                    "value": "DB05940"
+                }
+            ],
+            "drugbank_id": [
+                {
+                    "node": 512310,
+                    "value": "DB09074"
+                }
+            ],
+            "groups": [
+                {
+                    "node": 512310,
+                    "value": "approved"
+                }
+            ],
+            "half-life": {
+                "node": 512310,
+                "value": "The reported elimination half-life ranges between 5 to 11 hours.[A35290]"
+            },
+            "id": [
+                {
+                    "node": 6414,
+                    "value": "olaparib"
+                },
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                },
+                {
+                    "node": 314634,
+                    "value": "Q67E7B7KG6"
+                },
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                },
+                {
+                    "node": 512310,
+                    "value": "DB09074"
+                }
+            ],
+            "in_vitro_uri": [
+                {
+                    "node": 459438,
+                    "value": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18800822"
+                }
+            ],
+            "in_vitro_use_guide": [
+                {
+                    "node": 459438,
+                    "value": "30-100 nM in SW620 cells"
+                }
+            ],
+            "in_vivo_uri": [
+                {
+                    "node": 459438,
+                    "value": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf"
+                }
+            ],
+            "in_vivo_use_guide": [
+                {
+                    "node": 459438,
+                    "value": "400 mg (eight 50 mg capsules) taken twice daily, for a total daily dose of 800 mg. Continue treatment until disease progression or unacceptable toxicity."
+                }
+            ],
+            "in_vivo_use_route": [
+                {
+                    "node": 459438,
+                    "value": "Oral"
+                }
+            ],
+            "indication": [
+                {
+                    "node": 6414,
+                    "value": "ovarian cancer"
+                },
+                {
+                    "node": 512310,
+                    "value": "Olaparib is a poly (ADP-ribose) polymerase (PARP) inhibitor indicated for the treatment of:\r\n\r\n(I) Ovarian cancer, in which the medication is intended for [a] the maintenance treatment of adult patients with recurrent epithelial ovarian, fallopian tube or primary peritoneal cancer, who are in complete or partial response to platinum-based chemotherapy, or [b] for the treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy [FDA Label]. Select patients for therapy based on an FDA-approved companion diagnostic for olaparib [FDA Label].\r\n\r\n[II] Breast cancer, in which the medication is intended for use in patients with deleterious or suspected deleterious gBRCAm, human epidermal growth factor receptor 2 (HER2)-negative metastatic breast cancer who have previously been treated with chemotherapy in the neoadjuvant, adjuvant or metastatic setting. Patients with hormone receptor (HR)-positive breast cancer should have been treated with a prior endocrine therapy or be considered inappropriate for endocrine treatment [FDA Label]. Select patients for therapy based on an FDA-approved companion diagnostic for olaparib [FDA Label]."
+                }
+            ],
+            "indicationSource": {
+                "node": 6414,
+                "value": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e31a6a9-864f-4aba-8085-37ee1ddcd499"
+            },
+            "iupac": [
+                {
+                    "node": 459438,
+                    "value": "4-[[3-[4-(cyclopropanecarbonyl)piperazine-1-carbonyl]-4-fluorophenyl]methyl]-2H-phthalazin-1-one"
+                }
+            ],
+            "kegg_id": [
+                {
+                    "node": 459438,
+                    "value": "D09730"
+                }
+            ],
+            "mechanism-of-action": {
+                "node": 512310,
+                "value": "Olaparib is an inhibitor of poly (ADP-ribose) polymerase (PARP) enzymes, including PARP1, PARP2, and PARP3. PARP enzymes are involved in normal cellular homeostasis, such as DNA transcription, cell cycle regulation, and DNA repair [FDA Label]. Olaparib has been shown to inhibit growth of select tumor cell lines in vitro and decrease tumor growth in mouse xenograft models of human cancer both as monotherapy or following platinum-based chemotherapy [FDA Label]. Increased cytotoxicity and anti-tumor activity following treatment with olaparib were noted in cell lines and mouse tumor models with deficiencies in BRCA [FDA Label]. In vitro studies have shown that olaparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complex, resulting in disruption of cellular homeostasis and cell death [FDA Label]. "
+            },
+            "metabolism": {
+                "node": 512310,
+                "value": "Olaparib is extensively metabolized in the liver by the action of CYP3A isoenzymes.[F2974] From the administered dose, the unchanged form of olaparib accounted for 70% of the circulating dose and it was considered the major component in urine and feces.[L5089]\r\n\r\nThe metabolic pathway of olaparib is mainly attributable to oxidation reactions with subsequent glucuronide and sulfate conjugation. However, the over 20 metabolites found in plasma, urine, and feces represented a minor portion of the administered dose. The major circulating metabolites were represented by the mono-oxygenated form and the piperazin-3-ol form.[L5089]"
+            },
+            "moa": {
+                "node": 6414,
+                "value": "PARP inhibitor"
+            },
+            "modified_datetime": [
+                {
+                    "node": 459438,
+                    "value": "1.631723281455E12"
+                }
+            ],
+            "name": [
+                {
+                    "node": 6414,
+                    "value": "olaparib"
+                },
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                },
+                {
+                    "node": 314634,
+                    "value": "Q67E7B7KG6"
+                },
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                },
+                {
+                    "node": 512310,
+                    "value": "Olaparib"
+                }
+            ],
+            "originator": [
+                {
+                    "node": 459438,
+                    "value": "AstraZeneca"
+                }
+            ],
+            "originator_uri": [
+                {
+                    "node": 459438,
+                    "value": "http://www.drugdevelopment-technology.com/projects/lynparza-olaparib-cancer/"
+                }
+            ],
+            "patent": [
+                {
+                    "node": 459438,
+                    "value": "20080200469"
+                },
+                {
+                    "node": 459438,
+                    "value": "20080146575"
+                },
+                {
+                    "node": 459438,
+                    "value": "08247416"
+                },
+                {
+                    "node": 459438,
+                    "value": "08183369"
+                },
+                {
+                    "node": 459438,
+                    "value": "07692006"
+                }
+            ],
+            "pharmacodynamics": {
+                "node": 512310,
+                "value": "The effect of olaparib on cardiac repolarization was assessed in 119 patients following a single dose of 300 mg and in 109 patients following multiple dosing of 300 mg twice daily [FDA Label]. No clinically relevant effect of olaparib on QT interval was observed [FDA Label]."
+            },
+            "pk": [
+                {
+                    "node": 459438,
+                    "value": "{\"pk_age_group\":\"ADULT\",\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"BLOOD\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"12\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"\u03bcg \u00d7 h/mL\",\"pk_auc_value\":\"31.7\",\"pk_cmax_units\":\"\u03bcg/mL\",\"pk_cmax_value\":\"6.88\",\"pk_dose_type\":\"UNKNOWN\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"SINGLE\",\"pk_food_status\":\"UNKNOWN\",\"pk_health_status\":\"UNHEALTHY\",\"pk_routes\":\"Oral\",\"pk_sex\":\"FEMALE / MALE\",\"pk_source_type\":\"EXPERIMENT\",\"pk_source_uri\":\"https://www.ncbi.nlm.nih.gov/pubmed/30887180\",\"pk_species\":\"Homo sapiens\",\"pk_thalf_units\":\"h\",\"pk_thalf_value\":\"6.52\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_age_group\":\"ADULT\",\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"BLOOD\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"12\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"\u03bcg \u00d7 h/mL\",\"pk_auc_value\":\"10.9\",\"pk_cmax_units\":\"\u03bcg/mL\",\"pk_cmax_value\":\"2.97\",\"pk_dose_type\":\"UNKNOWN\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"100\",\"pk_experiment_type\":\"MULTIPLE\",\"pk_food_status\":\"UNKNOWN\",\"pk_frequency_period\":\"day\",\"pk_frequency_times\":\"2\",\"pk_health_status\":\"UNHEALTHY\",\"pk_routes\":\"Oral\",\"pk_sex\":\"FEMALE / MALE\",\"pk_source_type\":\"EXPERIMENT\",\"pk_source_uri\":\"https://www.ncbi.nlm.nih.gov/pubmed/30887180\",\"pk_species\":\"Homo sapiens\",\"pk_thalf_units\":\"h\",\"pk_thalf_value\":\"7.17\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_age_group\":\"ADULT\",\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"BLOOD\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_type\":\"\u221e\",\"pk_auc_units\":\"\u03bcg \u00d7 h/mL\",\"pk_auc_value\":\"44\",\"pk_cmax_units\":\"\u03bcg/mL\",\"pk_cmax_value\":\"8.27\",\"pk_dose_type\":\"UNKNOWN\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"STEADY-STATE\",\"pk_food_status\":\"UNKNOWN\",\"pk_frequency_period\":\"day\",\"pk_frequency_times\":\"2\",\"pk_health_status\":\"UNHEALTHY\",\"pk_routes\":\"Oral\",\"pk_sex\":\"FEMALE / MALE\",\"pk_source_type\":\"EXPERIMENT\",\"pk_source_uri\":\"https://www.ncbi.nlm.nih.gov/pubmed/30887180\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_age_group\":\"ADULT\",\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"BLOOD\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_type\":\"\u221e\",\"pk_auc_units\":\"\u03bcg \u00d7 h/mL\",\"pk_auc_value\":\"16.7\",\"pk_cmax_units\":\"\u03bcg/mL\",\"pk_cmax_value\":\"3.75\",\"pk_dose_type\":\"UNKNOWN\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"100\",\"pk_experiment_type\":\"STEADY-STATE\",\"pk_food_status\":\"UNKNOWN\",\"pk_frequency_period\":\"day\",\"pk_frequency_times\":\"2\",\"pk_health_status\":\"UNHEALTHY\",\"pk_routes\":\"Oral\",\"pk_sex\":\"FEMALE / MALE\",\"pk_source_type\":\"EXPERIMENT\",\"pk_source_uri\":\"https://www.ncbi.nlm.nih.gov/pubmed/30887180\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_age_group\":\"UNKNOWN\",\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"PLASMA\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_food_status\":\"UNKNOWN\",\"pk_funbound_comment\":\"The in vitro protein binding of olaparib is approximately 82%\",\"pk_funbound_value\":\"18\",\"pk_health_status\":\"UNKNOWN\",\"pk_sex\":\"UNKNOWN\",\"pk_source_type\":\"DRUG LABEL\",\"pk_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/208558s001lbl.pdf\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"12\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"ug*h/mL\",\"pk_auc_value\":\"43.9499999999999\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_frequency_period\":\"day\",\"pk_frequency_times\":\"2\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"12\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"ug*h/mL\",\"pk_auc_value\":\"43.91\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_frequency_period\":\"day\",\"pk_frequency_times\":\"2\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_cmax_units\":\"ug/mL\",\"pk_cmax_value\":\"6.875\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"12\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"ug*h/mL\",\"pk_auc_value\":\"31.68\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_hours\":\"48\",\"pk_auc_type\":\"t\",\"pk_auc_units\":\"ug*h/mL\",\"pk_auc_value\":\"36.37\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"pk_analyte_cid\":\"23725625\",\"pk_analyte_mw\":\"434.4628\",\"pk_analyte_pt\":\"OLAPARIB\",\"pk_analyte_query\":\"OLAPARIB\",\"pk_analyte_smiles\":\"FC1=C(C=C(CC2=NNC(=O)C3=C2C=CC=C3)C=C1)C(=O)N4CCN(CC4)C(=O)C5CC5\",\"pk_analyte_tissue\":\"plasma\",\"pk_analyte_unii\":\"WOH1JD9AR8\",\"pk_auc_type\":\"?\",\"pk_auc_units\":\"ug*h/mL\",\"pk_auc_value\":\"36.53\",\"pk_dose_units\":\"mg\",\"pk_dose_value\":\"300\",\"pk_experiment_type\":\"single\",\"pk_health_status\":\"unhealthy\",\"pk_routes\":\"oral\",\"pk_source_type\":\"Clinical Trial\",\"pk_source_uri\":\"https://clinicaltrials.gov/ct2/show/NCT02430311\",\"pk_species\":\"Homo sapiens\"}"
+                }
+            ],
+            "pmids": [
+                {
+                    "node": 459438,
+                    "value": "26544897"
+                },
+                {
+                    "node": 459438,
+                    "value": "26510020"
+                },
+                {
+                    "node": 459438,
+                    "value": "252160170"
+                },
+                {
+                    "node": 459438,
+                    "value": "24833294"
+                },
+                {
+                    "node": 459438,
+                    "value": "23118055"
+                },
+                {
+                    "node": 459438,
+                    "value": "22683710"
+                },
+                {
+                    "node": 459438,
+                    "value": "22194930"
+                },
+                {
+                    "node": 459438,
+                    "value": "21633166"
+                },
+                {
+                    "node": 459438,
+                    "value": "21417348"
+                },
+                {
+                    "node": 459438,
+                    "value": "21285347"
+                },
+                {
+                    "node": 459438,
+                    "value": "21188115"
+                },
+                {
+                    "node": 459438,
+                    "value": "21172086"
+                },
+                {
+                    "node": 459438,
+                    "value": "21152454"
+                },
+                {
+                    "node": 459438,
+                    "value": "21080930"
+                },
+                {
+                    "node": 459438,
+                    "value": "21069103"
+                },
+                {
+                    "node": 459438,
+                    "value": "21050424"
+                },
+                {
+                    "node": 459438,
+                    "value": "21050423"
+                },
+                {
+                    "node": 459438,
+                    "value": "21050422"
+                },
+                {
+                    "node": 459438,
+                    "value": "20979652"
+                },
+                {
+                    "node": 459438,
+                    "value": "20978505"
+                },
+                {
+                    "node": 459438,
+                    "value": "20976249"
+                },
+                {
+                    "node": 459438,
+                    "value": "20956982"
+                },
+                {
+                    "node": 459438,
+                    "value": "20948822"
+                },
+                {
+                    "node": 459438,
+                    "value": "20948704"
+                },
+                {
+                    "node": 459438,
+                    "value": "20922827"
+                },
+                {
+                    "node": 459438,
+                    "value": "20920367"
+                },
+                {
+                    "node": 459438,
+                    "value": "20871615"
+                },
+                {
+                    "node": 459438,
+                    "value": "20739657"
+                },
+                {
+                    "node": 459438,
+                    "value": "20725763"
+                },
+                {
+                    "node": 459438,
+                    "value": "20697530"
+                },
+                {
+                    "node": 459438,
+                    "value": "20647699"
+                },
+                {
+                    "node": 459438,
+                    "value": "20609468"
+                },
+                {
+                    "node": 459438,
+                    "value": "20609467"
+                },
+                {
+                    "node": 459438,
+                    "value": "20530711"
+                },
+                {
+                    "node": 459438,
+                    "value": "20506057"
+                },
+                {
+                    "node": 459438,
+                    "value": "20485165"
+                },
+                {
+                    "node": 459438,
+                    "value": "20459590"
+                },
+                {
+                    "node": 459438,
+                    "value": "20406929"
+                },
+                {
+                    "node": 459438,
+                    "value": "20404603"
+                },
+                {
+                    "node": 459438,
+                    "value": "20385032"
+                },
+                {
+                    "node": 459438,
+                    "value": "20383346"
+                },
+                {
+                    "node": 459438,
+                    "value": "20376879"
+                },
+                {
+                    "node": 459438,
+                    "value": "20149218"
+                },
+                {
+                    "node": 459438,
+                    "value": "20145144"
+                },
+                {
+                    "node": 459438,
+                    "value": "20130818"
+                },
+                {
+                    "node": 459438,
+                    "value": "20124459"
+                },
+                {
+                    "node": 459438,
+                    "value": "20111741"
+                },
+                {
+                    "node": 459438,
+                    "value": "20069122"
+                },
+                {
+                    "node": 459438,
+                    "value": "20049732"
+                },
+                {
+                    "node": 459438,
+                    "value": "20049345"
+                },
+                {
+                    "node": 459438,
+                    "value": "20030882"
+                },
+                {
+                    "node": 459438,
+                    "value": "20030873"
+                },
+                {
+                    "node": 459438,
+                    "value": "20017885"
+                },
+                {
+                    "node": 459438,
+                    "value": "20008842"
+                },
+                {
+                    "node": 459438,
+                    "value": "19904273"
+                },
+                {
+                    "node": 459438,
+                    "value": "19863774"
+                },
+                {
+                    "node": 459438,
+                    "value": "19825178"
+                },
+                {
+                    "node": 459438,
+                    "value": "19671736"
+                },
+                {
+                    "node": 459438,
+                    "value": "19647219"
+                },
+                {
+                    "node": 459438,
+                    "value": "19632796"
+                },
+                {
+                    "node": 459438,
+                    "value": "19589159"
+                },
+                {
+                    "node": 459438,
+                    "value": "19553641"
+                },
+                {
+                    "node": 459438,
+                    "value": "18971340"
+                },
+                {
+                    "node": 459438,
+                    "value": "18800822"
+                },
+                {
+                    "node": 459438,
+                    "value": "12857389"
+                }
+            ],
+            "qcd": [
+                {
+                    "node": 459438,
+                    "value": "false"
+                }
+            ],
+            "relationships": [
+                {
+                    "node": 314634,
+                    "value": "ACTIVE MOIETY|WOH1JD9AR8"
+                },
+                {
+                    "node": 27479,
+                    "value": "METABOLIC ENZYME->SUBSTRATE|PUO0521HZV"
+                },
+                {
+                    "node": 27479,
+                    "value": "METABOLIC ENZYME->INHIBITOR|PUO0521HZV"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->SUBSTRATE|22ES734693"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|76UB6O122H"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|22ES734693"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|AIN96D6SGL"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|ZWJ2Y6JZWY"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|6NP3XSMIP3"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|482M00274D"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|ONY583280Z"
+                },
+                {
+                    "node": 27479,
+                    "value": "TRANSPORTER->INHIBITOR|B46KUN2O9L"
+                },
+                {
+                    "node": 27479,
+                    "value": "BINDER->LIGAND|6D53G0FD0Z"
+                },
+                {
+                    "node": 27479,
+                    "value": "EXCRETED UNCHANGED|WOH1JD9AR8"
+                },
+                {
+                    "node": 27479,
+                    "value": "SALT/SOLVATE->PARENT|Q67E7B7KG6"
+                },
+                {
+                    "node": 314634,
+                    "value": "PARENT->SALT/SOLVATE|WOH1JD9AR8"
+                }
+            ],
+            "route-of-elimination": {
+                "node": 512310,
+                "value": "From the administered dose, approximately 86% of the administered dose is recovered after 7 days from which 44% is found in the urine and 42% is obtained in feces.[L5089]"
+            },
+            "smiles": [
+                {
+                    "node": 6414,
+                    "value": "Fc1ccc(Cc2n[nH]c(=O)c3ccccc23)cc1C(=O)N1CCN(CC1)C(=O)C1CC1"
+                },
+                {
+                    "node": 459438,
+                    "value": "O=C(C1CC1)N(CC1)CCN1C(c(cc(CC(c1c2cccc1)=NNC2=O)cc1)c1F)=O"
+                }
+            ],
+            "sourcing": [
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"ChEBI\",\"sourcing_vendor_substance_url\":\"https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:83766\",\"sourcing_vendor_type\":\"database\",\"sourcing_vendor_substance_id\":\"CHEBI:83766\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"ChemicalBook\",\"sourcing_vendor_substance_url\":\"https://www.chemicalbook.com/ChemicalProductProperty_EN_CB02473811\",\"sourcing_vendor_type\":\"vendor\",\"sourcing_vendor_substance_id\":\"CB02473811\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"ChemicalBook\",\"sourcing_vendor_substance_url\":\"https://www.chemicalbook.com/ChemicalProductProperty_EN_CB02756176\",\"sourcing_vendor_type\":\"vendor\",\"sourcing_vendor_substance_id\":\"CB02756176\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"eMolecules\",\"sourcing_vendor_substance_url\":\"https://www.emolecules.com/cgi-bin/more?vid=31526131\",\"sourcing_vendor_type\":\"vendor\",\"sourcing_vendor_substance_id\":\"31526131\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"MolPort\",\"sourcing_vendor_substance_url\":\"https://www.molport.com/shop/molecule-link/MolPort-009-679-395\",\"sourcing_vendor_type\":\"vendor\",\"sourcing_vendor_substance_id\":\"MolPort-009-679-395\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"Selleck Chemicals\",\"sourcing_vendor_substance_url\":\"http://www.selleckchem.com/products/AZD2281(Olaparib).html\",\"sourcing_vendor_type\":\"vendor\",\"sourcing_vendor_substance_id\":\"AZD2281(Olaparib)\"}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"sourcing_vendor_name\":\"ZINC\",\"sourcing_vendor_substance_url\":\"http://zinc15.docking.org/substances/ZINC000040430143\",\"sourcing_vendor_type\":\"database\",\"sourcing_vendor_substance_id\":\"ZINC000040430143\"}"
+                }
+            ],
+            "status": {
+                "node": 6414,
+                "value": "Launched"
+            },
+            "statusSource": {
+                "node": 6414,
+                "value": "FDA Orange Book: olaparib"
+            },
+            "structure_alert": [
+                {
+                    "node": 459438,
+                    "value": "False"
+                }
+            ],
+            "synonyms": [
+                {
+                    "node": 6414,
+                    "value": "AZD-2281|AZD2281|lynparza"
+                },
+                {
+                    "node": 459438,
+                    "value": "1(2H)-PHTHALAZINONE, 4-((3-((4-(CYCLOPROPYLCARBONYL)-1-PIPERAZINYL)CARBONYL)-4-FLUOROPHENYL)METHYL)-"
+                },
+                {
+                    "node": 459438,
+                    "value": "4-((3-((4-(CYCLOPROPYLCARBONYL)PIPERAZIN-1-YL)CARBONYL)-4-FLUOROPHENYL)METHYL)PHTHALAZIN-1(2H)-ONE"
+                },
+                {
+                    "node": 459438,
+                    "value": "AZD-2281"
+                },
+                {
+                    "node": 459438,
+                    "value": "AZD2281"
+                },
+                {
+                    "node": 459438,
+                    "value": "KU-0059436"
+                },
+                {
+                    "node": 459438,
+                    "value": "KU-59436"
+                },
+                {
+                    "node": 459438,
+                    "value": "LYNPARZA"
+                },
+                {
+                    "node": 459438,
+                    "value": "OLAPARIB"
+                },
+                {
+                    "node": 459438,
+                    "value": "OLAPARIBUM"
+                },
+                {
+                    "node": 459438,
+                    "value": "PIPERAZINE, 1-(CYCLOPROPYLCARBONYL)-4-(5-((3,4-DIHYDRO-4-OXO-1-PHTHALAZINYL)METHYL)-2-FLUOROBENZOYL)-"
+                },
+                {
+                    "node": 459438,
+                    "value": "\u041e\u041b\u0410\u041f\u0410\u0420\u0418\u0411"
+                },
+                {
+                    "node": 459438,
+                    "value": "\u0623\u0648\u0644\u0627\u0628\u0627\u0631\u064a\u0628"
+                },
+                {
+                    "node": 459438,
+                    "value": "\u5965\u62c9\u5e15\u5229"
+                },
+                {
+                    "node": 512310,
+                    "value": "DB09074"
+                },
+                {
+                    "node": 512310,
+                    "value": "4-(3-{[4-(cyclopropylcarbonyl)piperazin-1-yl]carbonyl}-4-fluorobenzyl)phthalazin-1(2H)-one"
+                },
+                {
+                    "node": 512310,
+                    "value": "Olaparib"
+                }
+            ],
+            "target": {
+                "node": 6414,
+                "value": "PARP1|PARP2|PARP3"
+            },
+            "targetSource": {
+                "node": 6414,
+                "value": "http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7519|http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7519|https://integrity.thomson-pharma.com/integrity/xmlxsl/pk_prod_list.xml_prod_list_card_pr?p_tsearch=A&p_id=417695"
+            },
+            "targets": [
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8.0,\"primary_target_id\":\"Q9Y6F1\",\"target_primary_target_type\":\"UniProt\",\"primary_target_uri\":\"http://www.ncbi.nlm.nih.gov/pubmed/27487106\",\"target_primary_potency_type\":\"Unknown\",\"primary_potency_uri\":\"Unknown\",\"target_pharmacology\":\"Inhibitor\",\"primary_target_label\":\"Poly [ADP-ribose] polymerase 3\",\"primary_target_gene_symbol\":\"PARP3\",\"primary_target_gene_id\":\"10039\",\"primary_target_organism\":\"Homo sapiens (Human)\",\"condition_refs\":[1137],\"target_id\":1444}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8.0,\"primary_target_id\":\"P09874\",\"target_primary_target_type\":\"UniProt\",\"primary_target_uri\":\"http://www.ncbi.nlm.nih.gov/pubmed/27487106\",\"target_primary_potency_type\":\"IC50\",\"target_primary_potency_value\":\"1.93999999999999995\",\"target_primary_potency_dimensions\":\"nM\",\"primary_potency_uri\":\"http://www.ncbi.nlm.nih.gov/pubmed/23881923\",\"target_pharmacology\":\"Inhibitor\",\"primary_target_label\":\"Poly [ADP-ribose] polymerase 1\",\"primary_target_gene_symbol\":\"PARP1\",\"primary_target_gene_id\":\"142\",\"primary_target_organism\":\"Homo sapiens (Human)\",\"condition_refs\":[1137],\"target_id\":1442}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8.0,\"primary_target_id\":\"Q9UGN5\",\"target_primary_target_type\":\"UniProt\",\"primary_target_uri\":\"http://www.ncbi.nlm.nih.gov/pubmed/27487106\",\"target_primary_potency_type\":\"Unknown\",\"primary_potency_uri\":\"Unknown\",\"target_pharmacology\":\"Inhibitor\",\"primary_target_label\":\"Poly [ADP-ribose] polymerase 2\",\"primary_target_gene_symbol\":\"PARP2\",\"primary_target_gene_id\":\"10038\",\"primary_target_organism\":\"Homo sapiens (Human)\",\"condition_refs\":[1137],\"target_id\":1443}"
+                }
+            ],
+            "toxicity": [
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"300\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208558s000lbl.pdf |https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208558Orig1s000MultidisciplineR.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_population_size\":\"195\",\"toxicity_source_page\":\"p. 99\",\"toxicity_duration\":\"19.4\",\"toxicity_duration_units\":\"month\",\"toxicity_do\":\"gBRCAm ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"24\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption or reduction |leads to discontinuation\"},{\"adverseevents_frequency\":\"20\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption or reduction |leads to discontinuation\"},{\"adverseevents_frequency\":\"9\",\"adverseevents_liability\":\"Neutropenia\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption or reduction |leads to discontinuation\"},{\"adverseevents_frequency\":\"73\",\"adverseevents_liability\":\"Nausea\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"},{\"adverseevents_frequency\":\"3\",\"adverseevents_liability\":\"Nausea\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"},{\"adverseevents_frequency\":\"34\",\"adverseevents_liability\":\"Vomiting\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"},{\"adverseevents_frequency\":\"3\",\"adverseevents_liability\":\"Vomiting\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"}],\"tox_id\":34}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"300\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208558s000lbl.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_population_size\":\"195\",\"toxicity_duration\":\"19.4\",\"toxicity_duration_units\":\"month\",\"toxicity_do\":\"gBRCAm ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"62\",\"adverseevents_liability\":\"Fatigue\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption or reduction\"},{\"adverseevents_frequency\":\"4\",\"adverseevents_liability\":\"Fatigue\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption or reduction\"},{\"adverseevents_frequency\":\"31\",\"adverseevents_liability\":\"Diarrhea\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"2\",\"adverseevents_liability\":\"Diarrhea\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Abscess oral\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Aphthous ulcer\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Gingival abscess\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Gingival disorder\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Gingival pain\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Gingivitis\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Mouth ulceration\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Mucosal infection\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Mucosal inflammation\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral candidiasis\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral discomfort\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral herpes\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral infection\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral mucosal erythema\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oral pain\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oropharyngeal discomfort\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"19\",\"adverseevents_liability\":\"Oropharyngeal pain\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Abscess oral\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Aphthous ulcer\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Gingival abscess\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Gingival disorder\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Gingival pain\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Gingivitis\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Mouth ulceration\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Mucosal infection\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Mucosal inflammation\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral candidiasis\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral discomfort\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral herpes\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral infection\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral mucosal erythema\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oral pain\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oropharyngeal discomfort\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Oropharyngeal pain\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"36\",\"adverseevents_liability\":\"Nasopharyngitis\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"36\",\"adverseevents_liability\":\"Sinusitis\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"36\",\"adverseevents_liability\":\"Rhinitis\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"36\",\"adverseevents_liability\":\"Influenza\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"22\",\"adverseevents_liability\":\"Decreased appetite\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"30\",\"adverseevents_liability\":\"Arthralgia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"30\",\"adverseevents_liability\":\"Myalgia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"27\",\"adverseevents_liability\":\"Dysgeusia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"25\",\"adverseevents_liability\":\"Headache\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Headache\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Rash\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Cough\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Dyspepsia\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Leukopenia\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Hypomagnesemia\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Dizziness\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Thrombocytopenia\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Creatinine increased\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Lymphopenia\"},{\"adverseevents_frequency\":\"<20\",\"adverseevents_liability\":\"Edema\"},{\"adverseevents_frequency\":\"89\",\"adverseevents_liability\":\"Mean corpuscular volume increased\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"66\",\"adverseevents_liability\":\"Decreased hemoglobin\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"17\",\"adverseevents_liability\":\"Decreased hemoglobin\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"64\",\"adverseevents_liability\":\"Leukocyte count decreased\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"5\",\"adverseevents_liability\":\"Leukocyte count decreased\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"56\",\"adverseevents_liability\":\"Lymphocyte count low\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"11\",\"adverseevents_liability\":\"Lymphocyte count low\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"44\",\"adverseevents_liability\":\"Absolute neutrophil count decreased\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"7\",\"adverseevents_liability\":\"Absolute neutrophil count decreased\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"44\",\"adverseevents_liability\":\"Creatinine serum increased\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"40\",\"adverseevents_liability\":\"Platelets decreased\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"2\",\"adverseevents_liability\":\"Platelets decreased\",\"adverseevents_severity\":\"grade 3-4\"}],\"tox_id\":33}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"300\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208558Orig1s000MultidisciplineR.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_population_size\":\"195\",\"toxicity_source_page\":\"p. 99\",\"toxicity_duration\":\"19.4\",\"toxicity_duration_units\":\"month\",\"toxicity_do\":\"gBRCAm ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"9 pts\",\"adverseevents_liability\":\"Thrombocytopenia\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to discontinuation | leads to dose interruption\"},{\"adverseevents_frequency\":\"2 pts\",\"adverseevents_liability\":\"Myelodysplastic syndrome\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to discontinuation\"},{\"adverseevents_frequency\":\"2 pts\",\"adverseevents_liability\":\"Acute myeloid leukemia\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to discontinuation\"}],\"tox_id\":35}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended|MTD\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"400\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_dose_comment\":\"400 mg BID was the MTD for the capsule formulation\",\"toxicity_population_size\":\"2618\",\"toxicity_duration\":\"158\",\"toxicity_duration_units\":\"day\",\"toxicity_do\":\"gBRCA-mutated advanced ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"<1\",\"adverseevents_liability\":\"Myelodysplastic syndrome\",\"adverseevents_severity\":\"grade 5\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"WARNING\"},{\"adverseevents_frequency\":\"<1\",\"adverseevents_liability\":\"Acute myeloid leukemia\",\"adverseevents_severity\":\"grade 5\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"WARNING\"}],\"tox_id\":37}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended|MTD\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"400\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_dose_comment\":\"400 mg BID was the MTD for the capsule formulation\",\"toxicity_duration\":\"158\",\"toxicity_duration_units\":\"day\",\"toxicity_do\":\"gBRCA-mutated advanced ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"<1\",\"adverseevents_liability\":\"Pneumonitis\",\"adverseevents_severity\":\"grade 5\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"WARNING\"}],\"tox_id\":38}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended|MTD\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"400\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_dose_comment\":\"400 mg BID was the MTD for the capsule formulation\",\"toxicity_population_size\":\"223\",\"toxicity_duration\":\"158\",\"toxicity_duration_units\":\"day\",\"toxicity_do\":\"gBRCA-mutated advanced ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"16\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"18\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"35\",\"adverseevents_liability\":\"Abdominal discomfort\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"8\",\"adverseevents_liability\":\"Abdominal discomfort\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"21\",\"adverseevents_liability\":\"Decreased appetite\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Decreased appetite\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"30\",\"adverseevents_liability\":\"Diarrhea\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"1\",\"adverseevents_liability\":\"Diarrhea\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"25\",\"adverseevents_liability\":\"Dyspepsia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"58\",\"adverseevents_liability\":\"Asthenia\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"8\",\"adverseevents_liability\":\"Asthenia\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"26\",\"adverseevents_liability\":\"Nasopharyngitis\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"21\",\"adverseevents_liability\":\"Arthralgia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"21\",\"adverseevents_liability\":\"Musculoskeletal pain\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"22\",\"adverseevents_liability\":\"Myalgia\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"18\",\"adverseevents_liability\":\"Neutropenia\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"7\",\"adverseevents_liability\":\"Neutropenia\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"39\",\"adverseevents_liability\":\"Lymphopenia\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"17\",\"adverseevents_liability\":\"Lymphopenia\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"57\",\"adverseevents_liability\":\"Mean corpuscular volume increased\",\"adverseevents_severity\":\"grade 1-4\"},{\"adverseevents_frequency\":\"28\",\"adverseevents_liability\":\"Creatinine increased\",\"adverseevents_severity\":\"grade 1-2\"},{\"adverseevents_frequency\":\"2\",\"adverseevents_liability\":\"Creatinine increased\",\"adverseevents_severity\":\"grade 3-4\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Cough\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Constipation\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Dysgeusia\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Peripheral edema\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Back pain\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Dizziness\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Headache\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Urinary tract infection\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Dyspnea\"},{\"adverseevents_frequency\":\"10-20\",\"adverseevents_liability\":\"Rash\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Leukopenia\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Stomatitis\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Peripheral neuropathy\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Pyrexia\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Hypomagnesemia\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Hyperglycemia\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Anxiety\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Depression\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Insomnia\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Dysuria\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Urinary incontinence\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Vulvovaginal disorder\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Dry skin\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Eczema\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Pruritis\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Hypertension\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Venous thrombosis\"},{\"adverseevents_frequency\":\"1-10\",\"adverseevents_liability\":\"Hot flush\"}],\"tox_id\":36}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Recommended|MTD\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"400\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206162lbl.pdf |https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208558Orig1s000MultidisciplineR.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_dose_comment\":\"400 mg BID was the MTD for the capsule formulation\",\"toxicity_population_size\":\"223\",\"toxicity_source_page\":\"p. 101\",\"toxicity_duration\":\"158\",\"toxicity_duration_units\":\"day\",\"toxicity_do\":\"gBRCA-mutated advanced ovarian cancer\",\"aes\":[{\"adverseevents_frequency\":\"61\",\"adverseevents_liability\":\"Nausea\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"3\",\"adverseevents_liability\":\"Nausea\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"39\",\"adverseevents_liability\":\"Vomiting\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"4\",\"adverseevents_liability\":\"Vomiting\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"58\",\"adverseevents_liability\":\"Fatigue\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"8\",\"adverseevents_liability\":\"Fatigue\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"75\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"15\",\"adverseevents_liability\":\"Anemia\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose reduction or interruption\"},{\"adverseevents_frequency\":\"27\",\"adverseevents_liability\":\"Thrombocytopenia\",\"adverseevents_severity\":\"grade 1-2\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"},{\"adverseevents_frequency\":\"3\",\"adverseevents_liability\":\"Thrombocytopenia\",\"adverseevents_severity\":\"grade 3-4\",\"adverseevents_type\":\"discontinuation\",\"adverseevents_comment\":\"leads to dose interruption\"}],\"tox_id\":39}"
+                },
+                {
+                    "node": 459438,
+                    "value": "{\"compound_id\":8,\"toxicity_dose_type\":\"Highest studied dose\",\"toxicity_dose_units\":\"mg\",\"toxicity_dose_value\":\"600\",\"toxicity_experiment_type\":\"steady\",\"toxicity_frequency_period\":\"day\",\"toxicity_frequency_times\":\"2\",\"toxicity_health_status\":\"unhealthy\",\"toxicity_routes\":\"oral\",\"toxicity_source_uri\":\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/206162Orig1s000ClinPharmR.pdf\",\"toxicity_species\":\"Homo sapiens\",\"toxicity_population_size\":\"52\",\"toxicity_source_page\":\"p. 8\",\"toxicity_duration\":\"14\",\"toxicity_duration_units\":\"day\",\"toxicity_do\":\"advanced solid tumors\",\"aes\":[{\"adverseevents_comment\":\"No information on AEs is available\"}],\"tox_id\":32}"
+                },
+                {
+                    "node": 512310,
+                    "value": "The most commonly reported side effects reported during clinical trials included cough, constipation, dysgeusia, peripheral deem, back pain, dizziness, headache, urinary tract infection, dyspnea, and rash [FDA Label] [L5089, F2974]. Myelodysplastic syndrome/Acute Myeloid Leukemia (MDS/AML) was reported in 2% of patients with deleterious or suspected deleterious germline BRCA-mutated advanced cancers [FDA Label] [L5089, F2974]. The majority of cases were fatal and the duration of therapy with olaparib in patients who developed secondary cancers varied from <6 months to >2 years [FDA Label] [L5089, F2974]. Complete blood count should be tested at baseline and monthly following therapy initiation to monitor for MDS/AML [FDA Label] [L5089, F2974]. Pneumonitis, including fatal cases, occurred in <1% of patients treated with olaparib [FDA Label] [L5089, F2974]. Patients should be monitored for new or worsening respiratory symptoms such as dyspnea, fever, cough, or wheezing [FDA Label] [L5089, F2974]. Olaparib was found to be teratogenic and causes embryo-fetal toxicity in rats [FDA Label] [L5089, F2974]. It should, therefore, be avoided during pregnancy and its use should be combined with effective contraception during treatment [FDA Label] [L5089, F2974]. "
+                }
+            ],
+            "unii": [
+                {
+                    "node": 512310,
+                    "value": "WOH1JD9AR8"
+                }
+            ],
+            "wikiurl": [
+                {
+                    "node": 459438,
+                    "value": "https://en.wikipedia.org/wiki/olaparib"
+                }
+            ],
+            "xml": {
+                "node": 512310,
+                "value": "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"
+            }
+        }
+    },
+    "events": [
+        {
+            "kind": "Clinical",
+            "source": "ClinicalTrials, February 2021",
+            "id": "WOH1JD9AR8:6",
+            "product": "NCT02392676: Phase 3 Interventional Withdrawn Platinum Sensitive Relapsed Ovarian Cancer",
+            "endDate": "2019-06-01",
+            "created": 1676355820117,
+            "comment": "Olaparib Maintenance Treatment Versus Placebo in Patients With PSR Ovarian Cancer Who Are in CR or PR to Platinum-based Chemotherapy and Whose Tumours Carry sBRCAm or HRR-associated Genes Mutations",
+            "startDate": "2016-07-01",
+            "URL": "https://clinicaltrials.gov/ct2/show/NCT02392676"
+        },
+        {
+            "kind": "Clinical",
+            "source": "ClinicalTrials, February 2021",
+            "id": "WOH1JD9AR8:5",
+            "product": "NCT02000622: Phase 3 Interventional Active, not recruiting Breast Cancer Metastatic",
+            "endDate": "2021-12-31",
+            "created": 1676355820112,
+            "comment": "Assessment of the Efficacy and Safety of Olaparib Monotherapy Versus Physicians Choice Chemotherapy in the Treatment of Metastatic Breast Cancer Patients With Germline BRCA1/2 Mutations.",
+            "startDate": "2014-03-27",
+            "URL": "https://clinicaltrials.gov/ct2/show/NCT02000622"
+        },
+        {
+            "kind": "Clinical",
+            "source": "ClinicalTrials, February 2021",
+            "id": "WOH1JD9AR8:4",
+            "product": "NCT03106987: Phase 3 Interventional Recruiting Epithelial Ovarian Cancer",
+            "endDate": "2021-05-07",
+            "created": 1676355820107,
+            "comment": "A Study to Examine Olaparib Maintenance Retreatment in Patients With Epithelial Ovarian Cancer.",
+            "startDate": "2017-06-08",
+            "URL": "https://clinicaltrials.gov/ct2/show/NCT03106987"
+        },
+        {
+            "kind": "USApprovalRx",
+            "id": "WOH1JD9AR8:3",
+            "source": "Drugs@FDA",
+            "sponsor": "ASTRAZENECA",
+            "product": "LYNPARZA",
+            "created": 1676355820103,
+            "jurisdiction": "US",
+            "active": "true",
+            "comment": "208558/001",
+            "URL": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208558",
+            "approvalAppId": "NDA208558",
+            "startDate": "2017-08-17"
+        },
+        {
+            "kind": "USPreviouslyMarketed",
+            "id": "WOH1JD9AR8:2",
+            "source": "Drugs@FDA",
+            "sponsor": "ASTRAZENECA",
+            "product": "LYNPARZA",
+            "created": 1676355820099,
+            "jurisdiction": "US",
+            "active": "false",
+            "comment": "206162/001",
+            "startDate": "2014-12-19",
+            "URL": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206162"
+        },
+        {
+            "kind": "Marketed",
+            "id": "WOH1JD9AR8",
+            "source": "FRDB, October 2021",
+            "sponsor": "AstraZeneca",
+            "product": "LYNPARZA",
+            "route": "Oral",
+            "created": 1676355820096,
+            "jurisdiction": "US",
+            "URL": "http://www.drugdevelopment-technology.com/projects/lynparza-olaparib-cancer/"
+        },
+        {
+            "kind": "Designation",
+            "id": "WOH1JD9AR8:FDA ORPHAN DRUG:419013",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820092,
+            "jurisdiction": "US",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8",
+            "approvalAppId": "FDA ORPHAN DRUG:419013"
+        },
+        {
+            "kind": "Clinical",
+            "id": "WOH1JD9AR8:USAN:OLAPARIB [USAN]",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820088,
+            "jurisdiction": "US",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8",
+            "approvalAppId": "USAN:OLAPARIB [USAN]"
+        },
+        {
+            "kind": "Marketed",
+            "id": "WOH1JD9AR8:ORANGE BOOK:OLAPARIB [ORANGE BOOK]",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820085,
+            "jurisdiction": "US",
+            "approvalAppId": "ORANGE BOOK:OLAPARIB [ORANGE BOOK]",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8"
+        },
+        {
+            "kind": "Clinical",
+            "id": "WOH1JD9AR8:INN:olaparib [INN]",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820081,
+            "approvalAppId": "INN:olaparib [INN]",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8"
+        },
+        {
+            "kind": "Marketed",
+            "id": "WOH1JD9AR8:WHO-ATC:L01XX46",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820077,
+            "approvalAppId": "WHO-ATC:L01XX46",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8"
+        },
+        {
+            "kind": "Clinical",
+            "id": "WOH1JD9AR8:JAN:OLAPARIB [JAN]",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820074,
+            "jurisdiction": "Japan",
+            "approvalAppId": "JAN:OLAPARIB [JAN]",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8"
+        },
+        {
+            "kind": "Designation",
+            "id": "WOH1JD9AR8:EU-Orphan Drug:EU/3/07/501",
+            "source": "G-SRS, December 2022",
+            "created": 1676355820069,
+            "jurisdiction": "EU",
+            "URL": "https://ginas.ncats.nih.gov/ginas/app/substance/WOH1JD9AR8",
+            "approvalAppId": "EU-Orphan Drug:EU/3/07/501"
+        },
+        {
+            "kind": "Marketed",
+            "id": "NDC 0310-0668",
+            "source": "DailyMed Rx, December 2021",
+            "sponsor": "AstraZeneca Pharmaceuticals LP",
+            "product": "Lynparza",
+            "route": "ORAL TABLET, FILM COATED",
+            "created": 1676355820065,
+            "jurisdiction": "US",
+            "active": "true",
+            "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+            "approvalAppId": "NDA208558",
+            "startDate": "2014-12-31",
+            "productCategory": "HUMAN PRESCRIPTION DRUG LABEL",
+            "marketingStatus": "NDA"
+        },
+        {
+            "kind": "Marketed",
+            "source": "DPD",
+            "id": "\f\u001d=\u04fe8",
+            "sponsor": "Astra Zeneca",
+            "product": "Lynparza",
+            "route": "Oral",
+            "created": 1676355820061,
+            "jurisdiction": "Canada",
+            "URL": "https://www.drugbank.ca/drugs/DB09074"
+        },
+        {
+            "kind": "Discontinued",
+            "source": "FDA NDC",
+            "id": "\f\u001d=\u04fe7",
+            "sponsor": "AstraZeneca Pharmaceuticals LP",
+            "product": "Lynparza",
+            "route": "Oral",
+            "endDate": "2020-03-31",
+            "created": 1676355820057,
+            "jurisdiction": "US",
+            "comment": "0310-0657",
+            "approvalAppId": "NDA206162",
+            "URL": "https://www.drugbank.ca/drugs/DB09074"
+        },
+        {
+            "kind": "Marketed",
+            "source": "DPD",
+            "id": "\f\u001d=\u04fe6",
+            "sponsor": "Astra Zeneca",
+            "product": "Lynparza",
+            "route": "Oral",
+            "created": 1676355820054,
+            "jurisdiction": "Canada",
+            "URL": "https://www.drugbank.ca/drugs/DB09074"
+        },
+        {
+            "kind": "Marketed",
+            "source": "DPD",
+            "id": "DB09074",
+            "sponsor": "Astra Zeneca",
+            "product": "Lynparza",
+            "route": "Oral",
+            "created": 1676355820049,
+            "jurisdiction": "Canada",
+            "URL": "https://www.drugbank.ca/drugs/DB09074"
+        }
+    ]
+}
